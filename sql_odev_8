@@ -1,0 +1,65 @@
+CREATE TABLE employee (
+	id INTEGER PRIMARY KEY,
+	name VARCHAR(50) NOT NULL,
+	birthday DATE,
+	email VARCHAR(100),
+);
+
+insert into author (name, birthday, email) values ('Seward', '1/13/2022', 'sfaragher0@bloglovin.com');
+insert into author (name, birthday, email) values ('Kincaid', '8/20/2021', 'klemmon1@cmu.edu');
+insert into author (name, birthday, email) values ('Koralle', '5/12/2022', 'kfosberry2@eventbrite.com');
+insert into author (name, birthday, email) values ('Davita', '7/24/2021', 'dcowins3@liveinternet.ru');
+insert into author (name, birthday, email) values ('Lawrence', '8/2/2021', 'lgreim4@indiatimes.com');
+insert into author (name, birthday, email) values ('Penn', '1/9/2022', 'pklimowski5@imageshack.us');
+insert into author (name, birthday, email) values ('Cori', '11/25/2021', 'cnehl6@t.co');
+insert into author (name, birthday, email) values ('Wyatan', '12/31/2021', 'wgannaway7@indiegogo.com');
+insert into author (name, birthday, email) values ('Kerrie', '11/12/2021', null);
+insert into author (name, birthday, email) values ('Vick', '10/9/2021', 'vscotchbourouge9@ihg.com');
+insert into author (name, birthday, email) values ('Katrine', '6/29/2021', 'krockhilla@sohu.com');
+insert into author (name, birthday, email) values ('Frederica', '8/9/2021', 'fsuermeierb@utexas.edu');
+insert into author (name, birthday, email) values ('Ervin', '3/5/2022', null);
+insert into author (name, birthday, email) values ('Barris', '11/11/2021', 'blewendond@ask.com');
+insert into author (name, birthday, email) values ('Ashlen', '6/1/2022', 'agilhespye@weebly.com');
+insert into author (name, birthday, email) values ('Ettore', '2/7/2022', 'epassf@nationalgeographic.com');
+insert into author (name, birthday, email) values ('Barrie', '5/19/2022', 'bimling@latimes.com');
+insert into author (name, birthday, email) values ('Katie', '9/28/2021', 'kmanth@pinterest.com');
+insert into author (name, birthday, email) values ('Mattias', '1/6/2022', 'msalmonii@smh.com.au');
+insert into author (name, birthday, email) values ('Beau', '2/19/2022', 'bpassfieldj@booking.com');
+insert into author (name, birthday, email) values ('Townsend', '2/25/2022', 'tstammirsk@bravesites.com');
+insert into author (name, birthday, email) values ('Gert', '3/14/2022', null);
+insert into author (name, birthday, email) values ('Eb', '7/23/2021', 'eturtonm@feedburner.com');
+insert into author (name, birthday, email) values ('Moria', '4/29/2022', 'mgudyern@wp.com');
+insert into author (name, birthday, email) values ('Glenn', '7/16/2021', 'gnutto@ibm.com');
+insert into author (name, birthday, email) values ('Hulda', '5/15/2022', null);
+insert into author (name, birthday, email) values ('Carmita', '10/29/2021', 'cmckechnieq@qq.com');
+insert into author (name, birthday, email) values ('Dorelle', '3/26/2022', 'djulyr@adobe.com');
+insert into author (name, birthday, email) values ('Judd', '10/23/2021', 'jbraundts@ow.ly');
+insert into author (name, birthday, email) values ('Lucille', '9/26/2021', 'lbartusekt@eventbrite.com');
+insert into author (name, birthday, email) values ('Vivianne', '4/9/2022', 'vhitteru@apple.com');
+insert into author (name, birthday, email) values ('Damon', '4/12/2022', 'dmaccriev@gov.uk');
+insert into author (name, birthday, email) values ('Ardyth', '4/11/2022', 'awhitehallw@miitbeian.gov.cn');
+insert into author (name, birthday, email) values ('Helene', '8/20/2021', 'hwhitakerx@tinyurl.com');
+insert into author (name, birthday, email) values ('Dniren', '2/27/2022', 'dcasbony@t-online.de');
+insert into author (name, birthday, email) values ('Dotti', '5/25/2022', 'dcurrallz@narod.ru');
+insert into author (name, birthday, email) values ('Anneliese', '10/21/2021', 'aberge10@ucoz.ru');
+insert into author (name, birthday, email) values ('Fifi', '6/25/2021', 'fbecken11@wufoo.com');
+insert into author (name, birthday, email) values ('Hollie', '10/6/2021', 'hleggen12@usa.gov');
+insert into author (name, birthday, email) values ('Ninnetta', '9/3/2021', 'nshooter13@npr.org');
+insert into author (name, birthday, email) values ('Elsbeth', '9/16/2021', 'ewhiteman14@samsung.com');
+insert into author (name, birthday, email) values ('Ranee', '5/5/2022', 'rjopp15@uiuc.edu');
+insert into author (name, birthday, email) values ('Noelani', '8/18/2021', 'nsaintsbury16@smh.com.au');
+insert into author (name, birthday, email) values ('Remy', '5/25/2022', 'rdibsdale17@netvibes.com');
+insert into author (name, birthday, email) values ('Devan', '2/12/2022', 'dholtum18@shutterfly.com');
+insert into author (name, birthday, email) values ('Vail', '1/28/2022', 'vraggett19@networkadvertising.org');
+insert into author (name, birthday, email) values ('Brion', '12/26/2021', 'bjahner1a@constantcontact.com');
+insert into author (name, birthday, email) values ('Hali', '5/15/2022', 'hskurray1b@digg.com');
+insert into author (name, birthday, email) values ('Hebert', '3/15/2022', 'hguterson1c@sitemeter.com');
+insert into author (name, birthday, email) values ('Dorella', '5/7/2022', 'dgreenough1d@icio.us');
+
+
+UPDATE employee
+SET name = 'U%'
+WHERE 5<id and id<10;
+
+DELETE from employee
+WHERE 15<id and id<20;
